@@ -1,0 +1,139 @@
+.container {
+    padding: 2rem;
+    color: #ffffff;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    text-align: center;
+    color: #ffd700;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+  }
+  
+  .progressBar {
+    width: 100%;
+    height: 6px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+    margin-bottom: 2rem;
+    overflow: hidden;
+  }
+  
+  .progressFill {
+    height: 100%;
+    background-color: #ffd700;
+    transition: width 0.3s ease;
+  }
+  
+  .lessonGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .lessonCard {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    padding: 1.5rem;
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lessonCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(255, 215, 0, 0.2);
+  }
+  
+  .lessonDetail {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    padding: 1.5rem;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navigationButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .navigationButtons button,
+  .quizButton,
+  .bookmarkButton,
+  .backButton {
+    padding: 0.75rem 1.5rem;
+    background-color: rgba(255, 105, 180, 0.3);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .navigationButtons button:hover,
+  .quizButton:hover,
+  .bookmarkButton:hover,
+  .backButton:hover {
+    background-color: rgba(255, 105, 180, 0.5);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 105, 180, 0.3);
+  }
+  
+  .navigationButtons button:disabled {
+    background-color: rgba(204, 204, 204, 0.3);
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+  }
+  
+  .quizButton {
+    display: block;
+    margin: 2rem auto;
+  }
+  
+  .bookmarkButton,
+  .backButton {
+    display: block;
+    margin: 1rem auto 0;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 1rem;
+    }
+  
+    .title {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    .lessonGrid {
+      grid-template-columns: 1fr;
+    }
+  
+    .navigationButtons {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .navigationButtons button,
+    .quizButton,
+    .bookmarkButton,
+    .backButton {
+      width: 100%;
+      margin: 0.5rem 0;
+    }
+  }

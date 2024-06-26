@@ -1,0 +1,68 @@
+.container {
+    padding: 2rem;
+    color: #ffffff;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    text-align: center;
+    color: #ffd700;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+  }
+  
+  .dateContainer {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .date {
+    font-size: 1.2rem;
+    color: #ff69b4;
+  }
+  
+  .horoscopeCard {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    padding: 2rem;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .horoscope {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  .refreshButton {
+    display: block;
+    margin: 0 auto;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #ff69b4;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .refreshButton:hover {
+    background-color: #ff1493;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 105, 180, 0.3);
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 2.5rem;
+    }
+    
+    .horoscope {
+      font-size: 1rem;
+    }
+  }

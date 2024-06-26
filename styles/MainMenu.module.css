@@ -1,0 +1,33 @@
+.mainMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .menuItem {
+    width: 200px;
+    text-align: center;
+    padding: 0.7rem 1rem;
+    border: 2px solid var(--stardust-pink);
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+  }
+  
+  .menuItem:hover {
+    background: rgba(255, 110, 127, 0.2);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px var(--stardust-pink);
+  }
+  
+  @media (max-width: 768px) {
+    .menuItem {
+      width: 80%;
+      font-size: 1rem;
+    }
+  }

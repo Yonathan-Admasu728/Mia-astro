@@ -1,0 +1,105 @@
+.quiz {
+    margin-top: 1rem;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+  }
+  
+  .options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .options button {
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+  }
+  
+  .options button:hover:not(:disabled) {
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+  }
+  
+  .options button.selected {
+    background-color: rgba(255, 215, 0, 0.5);
+  }
+  
+  .options button.correct {
+    background-color: rgba(0, 255, 0, 0.3);
+  }
+  
+  .options button.incorrect {
+    background-color: rgba(255, 0, 0, 0.3);
+  }
+  
+  .feedback {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  .navigation button {
+    padding: 0.75rem 1.5rem;
+    background-color: rgba(255, 105, 180, 0.3);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .navigation button:hover:not(:disabled) {
+    background-color: rgba(255, 105, 180, 0.5);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 105, 180, 0.3);
+  }
+  
+  .navigation button:disabled {
+    background-color: rgba(204, 204, 204, 0.3);
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+  }
+  
+  .results {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .quiz {
+      padding: 1rem;
+    }
+  
+    .options {
+      grid-template-columns: 1fr;
+    }
+  
+    .navigation {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    .navigation button {
+      width: 100%;
+    }
+  }

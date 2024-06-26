@@ -1,0 +1,10 @@
+/* styles/Layout.module.css */
+.layoutContainer {
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  .mainContent {
+    position: relative;
+    z-index: 1;
+  }

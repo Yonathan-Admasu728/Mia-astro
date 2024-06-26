@@ -1,0 +1,24 @@
+.backButton {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-bottom: 1rem;
+  }
+  
+  .backButton:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    transform: translateY(-2px);
+  }
+  
+  .backButton svg {
+    margin-right: 0.5rem;
+  }
+  

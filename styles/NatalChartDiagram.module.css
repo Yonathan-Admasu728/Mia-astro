@@ -1,0 +1,15 @@
+.chartContainer {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+  }
+  
+  .chart {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.5));
+  }
