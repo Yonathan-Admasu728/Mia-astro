@@ -51,7 +51,7 @@ export default function CosmicSelf() {
           <NatalChartDiagram />
           <div className={styles.chartExplanation}>
             <h3>Understanding Your Natal Chart</h3>
-            <p>This diagram represents Mia&apos;&lsquo;snatal chart, a snapshot of the sky at the moment of her birth. It shows the positions of the planets and key points in relation to the zodiac signs and houses. This unique celestial blueprint forms the foundation of her astrological profile.</p>
+            <p>This diagram represents Mia&lsquo;snatal chart, a snapshot of the sky at the moment of her birth. It shows the positions of the planets and key points in relation to the zodiac signs and houses. This unique celestial blueprint forms the foundation of her astrological profile.</p>
           </div>
         </div>
 
@@ -85,14 +85,14 @@ export default function CosmicSelf() {
         </div>
 
         <div className={styles.corePersonality}>
-          <h2>Mia&apos;&lsquo;sCore Personality</h2>
-          <p>The interplay between Mia&apos;&lsquo;s Sun (Leo), Moon (Libra), and Ascendant (Aquarius) creates a unique and dynamic personality:</p>
+          <h2>Mia&lsquo;sCore Personality</h2>
+          <p>The interplay between Mia&lsquo;s Sun (Leo), Moon (Libra), and Ascendant (Aquarius) creates a unique and dynamic personality:</p>
           <ul>
             <li>Her Leo Sun provides a strong sense of self, creativity, and leadership.</li>
             <li>Her Libra Moon balances this with a need for harmony, diplomacy, and aesthetic appreciation.</li>
             <li>Her Aquarius Ascendant adds a layer of originality, progressiveness, and humanitarian concern to her outward expression.</li>
           </ul>
-          <p>Together, these elements create a person who is confident yet diplomatic, creative yet fair-minded, and unique yet able to work well with others. Mia&apos;&lsquo;schallenge and opportunity lie in balancing her need for personal recognition (Leo) with her desire for harmony (Libra) and her drive for innovation and social progress (Aquarius).</p>
+          <p>Together, these elements create a person who is confident yet diplomatic, creative yet fair-minded, and unique yet able to work well with others. Mia&lsquo;schallenge and opportunity lie in balancing her need for personal recognition (Leo) with her desire for harmony (Libra) and her drive for innovation and social progress (Aquarius).</p>
         </div>
       </div>
     </Layout>

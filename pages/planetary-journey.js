@@ -86,7 +86,7 @@ export default function PlanetaryJourney() {
       <div className={styles.container}>
         <BackButton />
         <h1 className={styles.title}>Planetary Journey</h1>
-        <p className={styles.intro}>Explore how each planet influences different aspects of Mia&apos;&lsquo;s life and personality.</p>
+        <p className={styles.intro}>Explore how each planet influences different aspects of Mia&lsquo;s life and personality.</p>
         <div className={styles.planetGrid}>
           {Object.entries(planetaryData).map(([planet, data]) => (
             <div

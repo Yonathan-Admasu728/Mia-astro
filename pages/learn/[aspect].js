@@ -35,7 +35,7 @@ export default function LearnMore() {
         <h1 className={styles.title}>{data.title}</h1>
         <div className={styles.content}>
           <p>{data.content}</p>
-          <h2>In Mia&apos;&lsquo;s Chart</h2>
+          <h2>In Mia&lsquo;s Chart</h2>
           <p>{data.learnMore}</p>
         </div>
       </div>
